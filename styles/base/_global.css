@@ -1,0 +1,27 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul,li{
+    padding: 0px;
+    margin: 0;
+}
+.brand-color{
+    color: #4D6AFF;
+}
+.Rokh{
+    font-family: 'Rokh';
+}
+.Peyda{
+    font-family: 'Peyda';
+    font-weight: 400;
+}
+.BYekan{
+    font-family: 'BYekan';
+}
+.font-24{
+    font-size: 24px;
+}
