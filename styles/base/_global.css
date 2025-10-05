@@ -1,6 +1,7 @@
 a{
     list-style: none;
     text-decoration: none;
+    color: black;
 }
 li{
     list-style: none;
@@ -24,4 +25,14 @@ ul,li{
 }
 .font-24{
     font-size: 24px;
+}
+.content{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.active-menu{
+    border-bottom: solid #2ECC71;
+}
+.space-between{
+    justify-content: space-between;
 }
