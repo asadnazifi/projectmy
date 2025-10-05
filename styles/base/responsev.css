@@ -10,16 +10,35 @@
         display: block;
     }
 
-    .nav-menu div:nth-child(1) {
-        display: none;
+    .nav-menu div:first-child {
         position: absolute;
         left: 400px;
         top: 54px;
-        background-color: rgb(255, 255, 255);
+        background-color: #fff;
         width: 350px;
         height: 90vh;
         box-shadow: 1px 9px 40px -7px #00000033;
         z-index: 5;
+        transition: left 0.4s ease;
+        /* فقط حرکت */
+        opacity: 0;
+        /* حالت مخفی */
+        pointer-events: none;
+        /* غیرقابل کلیک وقتی مخفی */
+    }
+
+    /* حالت باز */
+    .nav-menu div:first-child.active {
+        left: 0px;
+        opacity: 1;
+        pointer-events: all;
+        right: 0;
+    }
+
+    /* حالت بستن */
+    .nav-menu div:first-child.closing {
+        left: 400px;
+        opacity: 0;
     }
 
     .nav-menu div:nth-child(1) ul {
@@ -28,19 +47,11 @@
         padding-right: 10px;
     }
 
-    .nav-menu div:nth-child(1) ul li:first-child {
+    .nav-menu div:nth-child(1) ul li:nth-child(2) {
         margin: 10px auto;
     }
 
-    .nav-menu div:nth-child(1) ul::before {
-    content: "\00D7"; /* ضربدر × */
-    font-size: 24px;
-    color: #f81100; /* قرمز-نارنجی */
-    display: block; /* تا بتواند float بگیرد */
-    cursor: pointer;
-    margin-left: 0; /* حذف فاصله سمت چپ */
-    margin-right: 8px;
-    }
+
 }
 
 /* تبلت کوچک (≥ 768px) */
@@ -56,6 +67,10 @@
     .nav-menu div:nth-child(1) {
         display: block;
     }
+
+    .nav-menu div:nth-child(1) ul li:nth-child(1) {
+        display: none;
+    }
 }
 
 /* لپ‌تاپ و دسکتاپ متوسط (≥ 1024px) */
@@ -63,6 +78,7 @@
     .nav-menu div:nth-child(2) {
         display: none;
     }
+
 }
 
 /* دسکتاپ بزرگ (≥ 1280px) */

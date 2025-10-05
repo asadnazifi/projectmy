@@ -38,3 +38,7 @@ header div ul li a span{
     text-align: center;
     line-height: 0.7;
 }
+#close-menu{
+    margin-right: 88%;
+    padding: 8px;
+}
