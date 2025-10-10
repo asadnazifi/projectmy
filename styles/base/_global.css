@@ -6,19 +6,26 @@ a{
 li{
     list-style: none;
 }
-ul,li{
+ul,li,p{
     padding: 0px;
     margin: 0;
 }
 .brand-color{
     color: #4D6AFF;
 }
+.brand-color-darck{
+    color: #1B4B72;
+}
 .Rokh{
     font-family: 'Rokh';
 }
-.Peyda{
+.Peyda-N{
     font-family: 'Peyda';
-    font-weight: 400;
+    font-weight: normal;
+}
+.Peyda-B{
+    font-family: 'Peyda-B';
+    font-weight: bold;
 }
 .BYekan{
     font-family: 'BYekan';
@@ -35,4 +42,30 @@ ul,li{
 }
 .space-between{
     justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-color{
+    color: #7D8A92;
+}
+.btn{
+    padding: 14px 18px;
+    border: none;
+    border-radius: 18px;
+}
+.bg-bt{
+    background-color:#69B1E4 ;
+}
+.float-left{
+    float: left;
+}
+.color-white{
+    color: white;
+}
+.mt-20{
+    margin-top: 20px;
 }
