@@ -16,6 +16,5 @@ closeBtn.addEventListener('click', function () {
 
     // بعد از پایان انیمیشن، کامل مخفی کنیم
     setTimeout(() => {
-        menuDiv.classList.remove('closing');
     }, 400); // برابر زمان transition
 });

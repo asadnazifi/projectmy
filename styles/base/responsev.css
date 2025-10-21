@@ -16,7 +16,6 @@
         top: 54px;
         background-color: #fff;
         width: 350px;
-        height: 90vh;
         box-shadow: 1px 9px 40px -7px #00000033;
         z-index: 5;
         transition: left 0.4s ease;
@@ -71,10 +70,13 @@
         font-size: 14px;
         line-height: 1.4;
     }
-    .laeout-start{
-        height: 60vh;
-    }
+    .card_introduction>div{
+        width: 46%;
 
+    }
+    .font-104{
+        font-size: 50px;
+    }
 
 }
 

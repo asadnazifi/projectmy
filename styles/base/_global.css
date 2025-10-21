@@ -69,3 +69,30 @@ ul,li,p{
 .mt-20{
     margin-top: 20px;
 }
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.font-104{
+    font-size: 104px;
+}
+.w-100{
+    width: 100%;
+}
+.font-32{
+    font-size: 32px;
+}
+.green{
+    color: #2ECC71;
+}
+.origin{
+    color: #FF9F43;
+}
+.goold{
+    color: #F4D03F;
+}
