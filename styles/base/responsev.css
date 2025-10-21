@@ -72,11 +72,21 @@
     }
     .card_introduction>div{
         width: 46%;
+        height: 74px;
 
     }
     .font-104{
         font-size: 50px;
+        padding-top: 10px;
     }
+    .card_introduction .w-100 p:nth-of-type(1){
+        font-size: 20px;
+    }
+    .card_introduction .w-100 p:nth-of-type(2){
+        font-size: 15px;
+    }
+    .cart-itme>div{width: 90%;}
+    .item-footer>div{width: 90%;}
 
 }
 
