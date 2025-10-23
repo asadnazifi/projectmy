@@ -48,5 +48,9 @@
     display: flex;
     padding: 3px;
     height: 115px;
+    transition: all ease .5s;
 
+}
+.card_introduction>div:hover{
+    margin-top: -10px;
 }
