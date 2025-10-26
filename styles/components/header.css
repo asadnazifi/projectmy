@@ -41,3 +41,9 @@ header div ul li a span{
     margin-right: 88%;
     padding: 8px;
 }
+#nev-menu-phone>ul>li{
+    transition: all ease 10ms;
+}
+#nev-menu-phone>ul>li:hover{
+    border-bottom: solid #2ECC71;
+}

@@ -19,6 +19,7 @@ ul,li,p{
 .Rokh{
     font-family: 'Rokh';
 }
+
 .Peyda-N{
     font-family: 'Peyda';
     font-weight: normal;
@@ -140,4 +141,10 @@ footer{
 }
 .text-content{
     padding: 5px;
+}
+.flex{
+    display: flex;
+}
+.gap-10{
+    gap: 10px;
 }
