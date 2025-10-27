@@ -148,3 +148,9 @@ footer{
 .gap-10{
     gap: 10px;
 }
+.mb-10{
+    margin-bottom: 10px;
+}
+.justfi-betwen{
+    justify-content: space-between;
+}

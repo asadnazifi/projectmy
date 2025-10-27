@@ -85,6 +85,28 @@
     }
     .cart-itme>div{width: 90%;}
     .item-footer>div{width: 90%;}
+    .navbar-dashbord{
+        width: 100%;
+        height: 14vh;
+    }
+    .navbar-dashbord>ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .navbar-dashbord>ul>a{
+        width: 30%;
+
+    }
+    .content-profile{
+        width: 100%;
+    }
+    .activ-nav-profil{
+        border-radius:50px ;
+    }
+    .content-right-panel>div {
+    width: 41%;
+    }
 
 }
 

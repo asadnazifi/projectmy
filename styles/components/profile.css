@@ -1,6 +1,7 @@
 .profile {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .navbar-dashbord {
@@ -10,16 +11,31 @@
     height: 70vh;
 
 }
-.content-profile{
+
+.content-profile {
     width: 72%;
 }
-.navbar-dashbord ul{
+
+.navbar-dashbord ul {
     margin-top: 20px;
 }
-.navbar-dashbord ul>a>li{
-    padding:  10px;
+
+.navbar-dashbord ul>a>li {
+    padding: 10px;
 }
-.activ-nav-profil{
+
+.activ-nav-profil {
     background-color: #69B1E4;
     color: white;
+}
+.content-right-panel{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-right-panel>div {
+    width: 24%;
+    background-color: #F7F9FB;
+    box-shadow: 1px 4px 15px -8px #000000;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
