@@ -107,6 +107,18 @@
     .content-right-panel>div {
     width: 41%;
     }
+.header-shop>div:nth-child(1){
+    width: 90%;
+}
+.header-shop>div:nth-child(2){
+    width: 90%;
+}
+.header-shop>div:nth-child(3){
+    width: 90%;
+}
+.price-buttom{
+    display: block;
+}
 
 }
 

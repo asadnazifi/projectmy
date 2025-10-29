@@ -154,3 +154,12 @@ footer{
 .justfi-betwen{
     justify-content: space-between;
 }
+.golde-color{
+    color: #F4D03F;
+}
+.justfi-center{
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
